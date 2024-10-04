@@ -1,0 +1,43 @@
+.box {
+    width: 325px;
+    height: 200px; 
+    background-color: wheat;
+    position: relative;
+    margin-bottom: 20px; 
+    border: 5px solid black;
+}
+.visability-container {
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    left: 25%;
+    top:25%;
+    background-color: whitesmoke;
+    border: 5px double black;
+    border-radius: 15px;
+}
+.row {
+    text-align: center;
+    margin: 10px;
+}
+.close-icon, .edit-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.edit-icon {
+    right: 40px;
+}
+.message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: wheat;
+    color: #721c24;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
